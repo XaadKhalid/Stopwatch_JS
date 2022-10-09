@@ -1,0 +1,35 @@
+body
+{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.container_bg{
+    background-color: orange;
+}
+button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover{
+    background-color: white;
+    color: orange;
+    border: 0;
+}
+.third{
+    margin-bottom: 1rem;
+}
+.second p span {
+    margin-left: 2px;
+}
